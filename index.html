@@ -1,40 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+    <title>Frontend Mentor | FAQ Accordion Card</title>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <!-- css links -->
+    <link rel="stylesheet" href="./build/stylesheets/index.css" />
+    <link rel="stylesheet" href="./build/stylesheets/mobile.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="illustration-box"></div>
+        <div class="illustration">
+          <div class="pattern"></div>
+          <div class="woman-online"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="faq-content">
+          <h1>Faq</h1>
+          <ul class="accordion">
+            <li>
+              <div class="accordion-header">
+                <p>How many team members can I invite?</p>
+                <div class="icon"></div>
+              </div>
+              <div class="accordion-content">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </div>
+            </li>
+            <li>
+              <div class="accordion-header">
+                <p>What is the maximum file upload size?</p>
+                <div class="icon"></div>
+              </div>
+              <div class="accordion-content">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </div>
+            </li>
+            <li>
+              <div class="accordion-header">
+                <p>How do I reset my password?</p>
+                <div class="icon"></div>
+              </div>
+              <div class="accordion-content">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </div>
+            </li>
+            <li>
+              <div class="accordion-header">
+                <p>Can I cancel my subscription?</p>
+                <div class="icon"></div>
+              </div>
+              <div class="accordion-content">
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </div>
+            </li>
+            <li>
+              <div class="accordion-header">
+                <p>Do you provide additional support?</p>
+                <div class="icon"></div>
+              </div>
+              <div class="accordion-content">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="attribution">
+      <span
+        >Challenge by
+        <a
+          href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam/hub"
+          target="_blank"
+          >Frontend Mentor</a
+        >.
+      </span>
+      <span>
+        Coded by
+        <a href="https://www.frontendmentor.io/profile/sdacleofe"
+          >Shanice Cleofe</a
+        >.</span
+      >
+    </footer>
+    <script src="./script/script.js"></script>
+  </body>
 </html>

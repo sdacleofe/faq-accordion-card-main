@@ -1,0 +1,172 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0;
+  margin-top: 40px;
+  background: linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.75em;
+}
+
+body main {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 920px;
+  width: 90%;
+  min-height: 545px;
+  margin: 50px 0;
+  border-radius: 20px;
+  box-shadow: 0 20px 15px 0px rgba(29, 30, 53, 0.2);
+}
+
+body main .container {
+  position: relative;
+  flex: 1;
+}
+
+body main .container:first-child {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+body main .container:first-child .illustration {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+body main .container:first-child .illustration .pattern {
+  position: absolute;
+  background-image: url(/images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1266px;
+  width: 1245px;
+  left: -790px;
+  top: -384px;
+}
+
+body main .container:first-child .illustration .woman-online {
+  position: absolute;
+  background-image: url(/images/illustration-woman-online-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 672px;
+  width: 559px;
+  left: -105px;
+}
+
+body main .container:first-child .illustration-box {
+  position: absolute;
+  background-image: url(/images/illustration-box-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  height: 191px;
+  width: 284px;
+  left: -182px;
+  margin-top: 95px;
+  z-index: 1;
+}
+
+body main .container:last-child .faq-content {
+  padding: 60px;
+}
+
+body main .container:last-child .faq-content h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+body main .container:last-child .faq-content ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+body main .container:last-child .faq-content li {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid hsl(240, 5%, 91%);
+  padding: 10px 0;
+  display: block;
+}
+
+body main .container:last-child .faq-content li .accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: hsl(240, 6%, 50%);
+  font-weight: 400;
+}
+
+body main .container:last-child .faq-content li .accordion-header p {
+  padding-right: 10px;
+}
+
+body main .container:last-child .faq-content li .accordion-header .icon {
+  background-image: url("/images/icon-arrow-down.svg");
+  background-repeat: no-repeat;
+  height: 10px;
+  width: 10px;
+  padding-right: 10px;
+}
+
+body main .container:last-child .faq-content li .accordion-header:active {
+  color: hsl(14, 88%, 65%);
+  font-weight: 400;
+}
+
+body main .container:last-child .faq-content li .accordion-content {
+  display: none;
+  color: hsl(237, 12%, 33%);
+  padding-right: 17px;
+}
+
+body main .container:last-child li.active .accordion-header {
+  color: hsl(238, 29%, 16%);
+  font-weight: 700;
+}
+
+body main .container:last-child li.active .accordion-content {
+  display: block;
+  color: hsl(238, 29%, 16%);
+}
+
+body main .container:last-child li.active .icon {
+  rotate: 180deg;
+  margin-right: 9px;
+}
+
+body footer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px 0;
+}
+
+body footer span {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+body footer span a {
+  color: hsl(0, 0%, 100%);
+}
+
+/*# sourceMappingURL=index.css.map */

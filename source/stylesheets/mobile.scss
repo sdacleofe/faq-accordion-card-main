@@ -1,0 +1,84 @@
+@import 'breakpoint';
+
+@media only screen and (max-width: 700px) {
+    body {
+        main {
+            display: flex;
+            flex-direction: column;
+            min-height: unset;
+            margin: 100px 0 0 0;
+
+            .container {
+                flex: unset;
+            }
+
+            .container:first-child {
+                display: unset;
+                align-items: unset;
+                position: unset;
+                height: unset;
+                width: unset;
+
+                .illustration {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    overflow: unset;
+                    height: unset;
+                    width: 100%;
+    
+                    .pattern {
+                        position: unset;
+                        background-image: url('/images/bg-pattern-mobile.svg');
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        height: 120px;
+                        width: 250px;
+                        left: unset;
+                        top: -100px;
+                    }
+    
+                    .woman-online {
+                        position: absolute;
+                        background-image: url('/images/illustration-woman-online-mobile.svg');
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: top;
+                        height: 198px;
+                        width: 100%;
+                        top: 50%;
+                        left: unset;
+                        transform: translateY(-90%);
+
+                    }
+                }
+
+                .illustration-box {
+                position: unset;
+                background-image: unset;
+                background-repeat: unset;
+                background-size: unset;
+                background-position: unset;
+                height: unset;
+                width: unset;
+                left: unset;
+                margin-top: unset;
+                z-index: unset;
+                }
+            }
+
+            .container:last-child {
+                
+                .faq-content {
+                    padding: 0px 10px 30px 20px;
+
+                    h1 {
+                        text-align: center;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
