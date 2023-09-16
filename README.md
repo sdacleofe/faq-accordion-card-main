@@ -67,55 +67,55 @@ Additionally, I effectively sidestepped the need for using !important in my mobi
 
 ```sass
 .container:first-child {
-  display: flex;
-  align-items: center;
-  position: relative;
-  height: auto;
-  width: 100%;
+  display: flex
+  align-items: center
+  position: relative
+  height: auto
+  width: 100%
 
   .illustration {
-      display: flex;
-      align-items: center;
-      position: relative;
-      overflow: hidden;
-      height: 100%;
-      width: 100%;
+      display: flex
+      align-items: center
+      position: relative
+      overflow: hidden
+      height: 100%
+      width: 100%
 
       .pattern {
-          position: absolute;
-          background-image: url(/images/bg-pattern-desktop.svg);
-          background-repeat: no-repeat;
-          background-size: contain;
-          height: 1266px;
-          width: 1245px;
-          left: -790px;
-          top: -384px;
+          position: absolute
+          background-image: url(/images/bg-pattern-desktop.svg)
+          background-repeat: no-repeat
+          background-size: contain
+          height: 1266px
+          width: 1245px
+          left: -790px
+          top: -384px
       }
 
       .woman-online {
-          position: absolute;
-          background-image: url(/images/illustration-woman-online-desktop.svg);
-          background-repeat: no-repeat;
-          background-size: contain;
-          background-position: right;
-          height: 672px;
-          width: 559px;
-          left: -105px;
+          position: absolute
+          background-image: url(/images/illustration-woman-online-desktop.svg)
+          background-repeat: no-repeat
+          background-size: contain
+          background-position: right
+          height: 672px
+          width: 559px
+          left: -105px
       }
 
   }
 
   .illustration-box {
       position: absolute;
-      background-image: url(/images/illustration-box-desktop.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: right center;
-      height: 191px;
-      width: 284px;
-      left: -182px;
-      margin-top: 95px;
-      z-index: 1;
+      background-image: url(/images/illustration-box-desktop.svg)
+      background-repeat: no-repeat
+      background-size: contain
+      background-position: right center
+      height: 191px
+      width: 284px
+      left: -182px
+      margin-top: 95px
+      z-index: 1
   }
 }
 ```
