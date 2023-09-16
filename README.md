@@ -30,24 +30,24 @@ Users should be able to:
 
 ---
 
-![](./desktop-preview-f.png)
+![](/design/desktop-preview-f.png)
 
 ## Desktop State Preview
 
 ---
 
-![](./desktop-preview-f.png)
+![](/design/desktop-preview-states-f.png)
 
 ## Mobile Preview
 
 ---
 
-![](./mobile-design-f.png)
+![](/design/mobile-design-f.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [FAQ Accordion Layout](https://sdacleofe.github.io/faq-accordion-card-main/)
 
 Note: links are not yet available.
 

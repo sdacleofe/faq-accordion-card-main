@@ -47,7 +47,7 @@ body main .container:first-child .illustration {
 
 body main .container:first-child .illustration .pattern {
   position: absolute;
-  background-image: url(/images/bg-pattern-desktop.svg);
+  background-image: url("/faq-accordion-card-main/images/bg-pattern-desktop.svg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 1266px;
@@ -58,7 +58,7 @@ body main .container:first-child .illustration .pattern {
 
 body main .container:first-child .illustration .woman-online {
   position: absolute;
-  background-image: url(/images/illustration-woman-online-desktop.svg);
+  background-image: url("/faq-accordion-card-main/images/illustration-woman-online-desktop.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -69,7 +69,7 @@ body main .container:first-child .illustration .woman-online {
 
 body main .container:first-child .illustration-box {
   position: absolute;
-  background-image: url(/images/illustration-box-desktop.svg);
+  background-image: url("/faq-accordion-card-main/images/illustration-box-desktop.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right center;
@@ -118,7 +118,7 @@ body main .container:last-child .faq-content li .accordion-header p {
 }
 
 body main .container:last-child .faq-content li .accordion-header .icon {
-  background-image: url("/images/icon-arrow-down.svg");
+  background-image: url("/faq-accordion-card-main/images/icon-arrow-down.svg");
   background-repeat: no-repeat;
   height: 10px;
   width: 10px;
