@@ -46,7 +46,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam/hub)
 - Live Site URL: [FAQ Accordion Layout](https://sdacleofe.github.io/faq-accordion-card-main/)
 
 Note: links are not yet available.
